@@ -1,0 +1,88 @@
+.FOTOtitle {
+    width: 500px;
+    border-radius: 50px;
+    box-shadow: 14px 14px 14px 14px rgba(255, 1, 1, 0.76);
+   
+}
+
+.infotitle {
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+    margin-top: 20px;
+   }
+
+.container img {  
+    width: 200px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px 10px hwb(0 0% 0% / 0.705);
+}
+
+.MainFlexClass {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    align-items: flex-end;
+    
+}
+
+
+.boxshadow {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px 10px hwb(0 0% 1% / 0.705);
+    margin-top: 20px;
+    margin-bottom: 30px;   
+}
+
+h1.center {
+    text-align: center;
+}
+
+hr {
+    border: none;
+    border-top: 3px double rgb(255, 2, 2);
+    color: rgb(0, 245, 12);
+    overflow: visible;
+    text-align: center;
+    height: 20px;
+}
+
+body {
+    background-color: dimgrey;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.flexCont {
+    background-color:dimgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.flexCont > div {
+    background-color: dimgrey;
+    margin: auto;
+    padding: 20px;
+    font-size: 30px;
+    width: 10px;
+    height: 10px;
+   
+}
+
+.textcenter {
+    text-align: center;
+    font-size: 12px;
+    width:300px;
+}
